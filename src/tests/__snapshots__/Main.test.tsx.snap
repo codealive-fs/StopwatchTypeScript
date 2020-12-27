@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the component 1`] = `
+<main
+  className="stopwatch-container"
+>
+  <section
+    className="timer-display"
+  >
+    <p
+      id="hour"
+    />
+    <span>
+      :
+    </span>
+    <p
+      id="minute"
+    />
+    <span>
+      :
+    </span>
+    <p
+      id="second"
+    />
+  </section>
+  <Controls
+    setTimeInSeconds={[Function]}
+  />
+</main>
+`;
